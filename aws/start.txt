@@ -2,6 +2,8 @@ Keshav 14 Jun 2024
 https://caddyserver.com/docs/install#debian-ubuntu-raspbian
 Benjemin Caleb
 
+sudo ufw allow ssh
+
 1. sudo apt-get update
 2. sudo apt-get upgrade
 3. sudo apt update
@@ -16,4 +18,4 @@ Benjemin Caleb
     curl -1sLf 'https://dl.cloudsmith.io/public/caddy/stable/debian.deb.txt' | sudo tee /etc/apt/sources.list.d/caddy-stable.list
     sudo apt update
     sudo apt install caddy
-11. sudo ufw allow ssh
+
