@@ -28,3 +28,12 @@
 17. git clone {link}
 18. npm i
 19. node app
+
+
+https://www.shubhamdipt.com/blog/how-to-create-a-systemd-service-in-linux/
+https://www.digitalocean.com/community/tutorials/how-to-use-systemctl-to-manage-systemd-services-and-units
+
+In Terminal:
+20. cd /etc/systemd/system
+21. sudo systemctl start your-service.service
+22. sudo systemctl enable example.service     -> (To enable your service on every reboot)
