@@ -1,5 +1,8 @@
-need to do basic things in vim
+need to do basic things in vim and the below links
 https://www.linuxfoundation.org/blog/blog/classic-sysadmin-vim-101-a-beginners-guide-to-vim
+https://caddyserver.com/docs/install#debian-ubuntu-raspbian
+https://caddyserver.com/docs/getting-started
+
 
 1. EC2 instance -> security -> security groups (link)
 2. edit inbound rules -> Add rules -> HTTP(IPv4) & HTTPS(IPv4)
@@ -38,5 +41,9 @@ https://www.digitalocean.com/community/tutorials/how-to-use-systemctl-to-manage-
 
 In Terminal:
 20. cd /etc/systemd/system
-21. sudo systemctl start your-service.service
-22. sudo systemctl enable example.service     -> (To enable your service on every reboot)
+sudo vim keshavsoft.service
+paste the code from keshavsoft.service from this repo only
+save and exit from vim by doing the necessary changes if needed any from aboutService.txt
+
+sudo systemctl start keshavsoft.service
+sudo systemctl enable keshavsoft.service     -> (To enable your service on every reboot)
