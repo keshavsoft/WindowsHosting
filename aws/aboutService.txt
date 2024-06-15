@@ -1,0 +1,4 @@
+in the file : servicename.service
+
+change the user name from : ubuntu to any if needed
+
