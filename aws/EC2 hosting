@@ -1,4 +1,4 @@
-need to do basic things in vim and the below links
+#Need to do basic things in vim and the below links-
 https://www.linuxfoundation.org/blog/blog/classic-sysadmin-vim-101-a-beginners-guide-to-vim
 https://caddyserver.com/docs/install#debian-ubuntu-raspbian
 https://caddyserver.com/docs/getting-started
@@ -39,26 +39,25 @@ https://caddyserver.com/docs/getting-started
 https://www.shubhamdipt.com/blog/how-to-create-a-systemd-service-in-linux/
 https://www.digitalocean.com/community/tutorials/how-to-use-systemctl-to-manage-systemd-services-and-units
 
-In Terminal:
+#In Terminal:
 20. cd /etc/systemd/system
     sudo vim keshavsoft.service
 
-paste the code from keshavsoft.service from this repo only
-save and exit from vim by doing the necessary changes if needed any from aboutService.txt
+#paste the code from keshavsoft.service from this repo only
+#save and exit from vim by doing the necessary changes if needed any from aboutService.txt
 
 21. sudo systemctl start keshavsoft.service
 22. sudo systemctl enable keshavsoft.service     -> (To enable your service on every reboot)
 
 23. sudo reboot
 
-now test the keshavsoft.service with-
+#now test the keshavsoft.service with-
 
 24. curl localhost:7018
-25. cd etc/caddy/
+25. cd /etc/caddy
 26.  -> sudo vim Caddyfile
      -> esc -> i -> add below-
             aws.keshavsoft.biz {
                 reverse_proxy localhost:7018
             }
      -> :wq    (to exit)
-27. 
