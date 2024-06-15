@@ -1,4 +1,6 @@
 in the file : servicename.service
 
-change the user name from : ubuntu to any if needed
+change the user name from : ubuntu to any if needed ( in line number 6 )
+
+if needed changed the WorkingDirectory to the location where you cloned the git repo 
 
