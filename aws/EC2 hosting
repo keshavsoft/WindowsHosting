@@ -41,15 +41,24 @@ https://www.digitalocean.com/community/tutorials/how-to-use-systemctl-to-manage-
 
 In Terminal:
 20. cd /etc/systemd/system
-sudo vim keshavsoft.service
+    sudo vim keshavsoft.service
+
 paste the code from keshavsoft.service from this repo only
 save and exit from vim by doing the necessary changes if needed any from aboutService.txt
 
-sudo systemctl start keshavsoft.service
-sudo systemctl enable keshavsoft.service     -> (To enable your service on every reboot)
+21. sudo systemctl start keshavsoft.service
+22. sudo systemctl enable keshavsoft.service     -> (To enable your service on every reboot)
 
-sudo reboot
+23. sudo reboot
 
-now test test the keshavsoft.service
+now test the keshavsoft.service with-
 
-with curl localhost:7018
+24. curl localhost:7018
+25. cd etc/caddy/
+26.  -> sudo vim Caddyfile
+     -> esc -> i -> add below-
+            aws.keshavsoft.biz {
+                reverse_proxy localhost:7018
+            }
+     -> :wq    (to exit)
+27. 
