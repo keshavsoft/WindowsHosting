@@ -47,3 +47,9 @@ save and exit from vim by doing the necessary changes if needed any from aboutSe
 
 sudo systemctl start keshavsoft.service
 sudo systemctl enable keshavsoft.service     -> (To enable your service on every reboot)
+
+sudo reboot
+
+now test test the keshavsoft.service
+
+with curl localhost:7018
