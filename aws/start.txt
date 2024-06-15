@@ -1,6 +1,7 @@
 Keshav 14 Jun 2024
 
 need to do basic things in vim
+https://www.linuxfoundation.org/blog/blog/classic-sysadmin-vim-101-a-beginners-guide-to-vim
 
 https://caddyserver.com/docs/install#debian-ubuntu-raspbian
 https://caddyserver.com/docs/getting-started
