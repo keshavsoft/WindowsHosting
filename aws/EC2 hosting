@@ -24,6 +24,7 @@ https://www.linuxfoundation.org/blog/blog/classic-sysadmin-vim-101-a-beginners-g
 
 
 13. sudo ufw allow http
+14. sudo ufw allow https
 14. sudo ufw allow ssh
 15. sudo ufw enable 
 16. sudo ufw status
