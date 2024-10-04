@@ -5,6 +5,7 @@ git clone -c core.longpaths=true https://github.com/keshavsoft/crudFrontEnd
 
 cd crudFrontEnd
 call npm i
+call npm run TableShow
 
 cd ..\CrudGenV1
 call npm i
@@ -15,3 +16,7 @@ echo DataPk=327>> .env
 call node KCode/ForBat/Backend.js
 call node KCode/ForBat/Database.js
 call npm run home
+
+cd ..\crudFrontEnd
+
+xcopy .\publicDir\TableShow ..\CrudGenV1\public\TableShow /h /i /c /k /e /r /y
