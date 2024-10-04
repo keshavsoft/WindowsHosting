@@ -2,9 +2,14 @@
 
 git clone https://github.com/keshavsoft/CrudGenV1
 git clone -c core.longpaths=true https://github.com/keshavsoft/LaundryFrontEnd
+git clone -c core.longpaths=true https://github.com/keshavsoft/FrontEndForUsers
 
 cd LaundryFrontEnd
 call npm i
+
+cd ..\FrontEndForUsers
+call npm i
+call npm run Users
 
 cd ..\CrudGenV1
 call npm i
