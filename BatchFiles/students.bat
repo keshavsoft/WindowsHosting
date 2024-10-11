@@ -12,7 +12,7 @@ call npm run CreateStatic
 cd ..\CrudGenV1
 call npm i
 
-echo PORT=7019> .env
+echo PORT=7020> .env
 echo DataPk=327>> .env
 
 call node KCode/ForBat/Backend.js
