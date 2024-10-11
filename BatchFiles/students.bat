@@ -24,3 +24,6 @@ cd ..\crudFrontEnd
 xcopy .\publicDir\TableShow ..\CrudGenV1\public\TableShow /h /i /c /k /e /r /y
 xcopy .\publicDir\Protected\Create\Static ..\CrudGenV1\public\Protected\Create\Static /h /i /c /k /e /r /y
 xcopy .\publicDir\Protected\Table\Show ..\CrudGenV1\public\Protected\Table\Show /h /i /c /k /e /r /y
+
+cd ..\CrudGenV1
+npm run start
