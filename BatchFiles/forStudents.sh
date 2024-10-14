@@ -13,3 +13,5 @@ echo DataPk=327>> .env
 node KCode/ForBat/Backend.js
 node KCode/ForBat/Database.js
 npm run home
+
+./BatchFiles/ForStudents/start.sh
