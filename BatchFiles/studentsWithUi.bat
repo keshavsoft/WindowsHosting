@@ -24,6 +24,6 @@ echo DataPk=327>> .env
 call node KCode/ForBat/Backend.js
 call node KCode/ForBat/Database.js
 call npm run home
-.\BatchFiles\ForStudents\ForUI.bat
+call .\BatchFiles\ForStudents\ForUI.bat
 
 npm run start
