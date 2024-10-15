@@ -18,3 +18,6 @@ node KCode/ForBat/Backend.js
 node KCode/ForBat/Database.js
 npm run home
 
+./BatchFiles/ForStudents/ForUI.sh
+
+npm run start
