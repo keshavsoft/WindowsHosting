@@ -3,12 +3,16 @@
 
 git clone https://github.com/keshavsoft/CrudGenV1
 git clone -c core.longpaths=true https://github.com/keshavsoft/crudFrontEnd
+git clone -c core.longpaths=true https://github.com/keshavsoft/FrontEndForClients
 
 cd crudFrontEnd
 call npm i
 call npm run TableShow
 call npm run ProtectedTableShow
 call npm run CreateStatic
+
+cd ..\FrontEndForClients
+call npm i
 
 cd ..\CrudGenV1
 call npm i
