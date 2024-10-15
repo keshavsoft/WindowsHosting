@@ -1,4 +1,3 @@
-
 @echo off
 
 git clone https://github.com/keshavsoft/CrudGenV1
@@ -7,12 +6,14 @@ git clone -c core.longpaths=true https://github.com/keshavsoft/FrontEndForClient
 
 cd crudFrontEnd
 call npm i
-call npm run TableShow
-call npm run ProtectedTableShow
-call npm run CreateStatic
+
+echo StartUrl="binV4"> .env
+echo TableName="StudentNames">> .env
+
 
 cd ..\FrontEndForClients
 call npm i
+
 
 cd ..\CrudGenV1
 call npm i
@@ -23,12 +24,6 @@ echo DataPk=327>> .env
 call node KCode/ForBat/Backend.js
 call node KCode/ForBat/Database.js
 call npm run home
+.\BatchFiles\ForStudents\ForUI.bat
 
-cd ..\crudFrontEnd
-
-xcopy .\publicDir\TableShow ..\CrudGenV1\public\TableShow /h /i /c /k /e /r /y
-xcopy .\publicDir\Protected\Create\Static ..\CrudGenV1\public\Protected\Create\Static /h /i /c /k /e /r /y
-xcopy .\publicDir\Protected\Table\Show ..\CrudGenV1\public\Protected\Table\Show /h /i /c /k /e /r /y
-
-cd ..\CrudGenV1
 npm run start
