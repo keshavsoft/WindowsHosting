@@ -9,7 +9,7 @@ cd ../FrontEndForClients
 npm i
 
 cd ../CrudGenV1
-call npm i
+npm i
 
 echo PORT=7020> .env
 echo DataPk=327>> .env
