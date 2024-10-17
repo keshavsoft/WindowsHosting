@@ -13,7 +13,7 @@ echo TableName="StudentNames">> .env
 
 cd ..\FrontEndForClients
 call npm i
-
+call npm run students
 
 cd ..\CrudGenV1
 call npm i
