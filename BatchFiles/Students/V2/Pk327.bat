@@ -14,5 +14,6 @@ call npm run home
 
 cd ..\crudFrontEnd
 call npm i
-call npm run Dashboard
-xcopy .\publicDir ..\CrudGenV2\public\crudFrontEnd /h /i /c /k /e /r /y
+
+cd ..\CrudGenV2
+call .\BatchFiles\ForStudents\ForUI.bat
