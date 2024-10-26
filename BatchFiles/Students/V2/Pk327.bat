@@ -3,6 +3,7 @@
 
 git clone https://github.com/keshavsoft/CrudGenV2
 git clone -c core.longpaths=true https://github.com/keshavsoft/crudFrontEnd
+git clone -c core.longpaths=true https://github.com/keshavsoft/FrontEndForClients
 
 cd CrudGenV2
 call npm i
@@ -13,6 +14,9 @@ node KCode/ForBatV5/Database.js
 call npm run home
 
 cd ..\crudFrontEnd
+call npm i
+
+cd ..\FrontEndForClients
 call npm i
 
 cd ..\CrudGenV2
