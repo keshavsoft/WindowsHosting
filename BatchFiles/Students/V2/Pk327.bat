@@ -22,4 +22,5 @@ call npm i
 cd ..\CrudGenV2
 call .\BatchFiles\ForStudents\ForUI.bat
 
+
 npm run Students
