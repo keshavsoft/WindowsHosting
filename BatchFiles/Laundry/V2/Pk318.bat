@@ -1,9 +1,7 @@
 @echo off
 
 git clone https://github.com/keshavsoft/CrudGenV2
-git clone -c core.longpaths=true https://github.com/keshavsoft/LaundryFrontEndForAdmin
-git clone -c core.longpaths=true https://github.com/keshavsoft/LaundryFrontEndForBranch
-
+git clone -c core.longpaths=true https://github.com/keshavsoft/LaundryFrontEnd
 git clone -c core.longpaths=true https://github.com/keshavsoft/FrontEndForUsers
 git clone -c core.longpaths=true https://github.com/keshavsoft/FrontEndMazerVite
 git clone -c core.longpaths=true https://github.com/keshavsoft/crudFrontEnd
@@ -16,10 +14,7 @@ node KCode/ForBatV5/Backend.js
 node KCode/ForBatV5/Database.js
 call npm run home
 
-cd ..\LaundryFrontEndForAdmin
-call npm i
-
-cd ..\LaundryFrontEndForBranch
+cd ..\LaundryFrontEnd
 call npm i
 
 cd ..\FrontEndForUsers
@@ -35,5 +30,4 @@ cd ..\CrudGenV2
 call .\BatchFiles\ForLaundry\crudFrontEnd.bat
 call .\BatchFiles\ForLaundry\FrontEndForUsers.bat
 call .\BatchFiles\ForLaundry\FrontEndMazerVite.bat
-call .\BatchFiles\ForLaundry\LaundryFrontEndForAdmin.bat
-call .\BatchFiles\ForLaundry\LaundryFrontEndForBranch.bat
+call .\BatchFiles\ForLaundry\LaundryFrontEnd.bat
