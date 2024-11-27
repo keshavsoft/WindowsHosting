@@ -13,8 +13,8 @@ cd CrudGenV2
 call npm i
 echo PORT=7318> .env
 echo DataPk=318>> .env
-node KCode/ForBatV5/Backend.js
-node KCode/ForBatV5/Database.js
+node KCode/ForBatV6/Backend.js
+node KCode/ForBatV6/Database.js
 call npm run home
 
 cd ..\LaundryFrontEndForAdmin
