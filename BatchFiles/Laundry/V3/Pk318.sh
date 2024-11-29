@@ -15,22 +15,24 @@ node KCode/ForBatV6/Backend.js
 node KCode/ForBatV6/Database.js
 npm run home
 
-cd ..\LaundryFrontEndForAdmin
+cd ../LaundryFrontEndForAdmin
 npm i
 
-cd ..\LaundryFrontEndForBranch
+cd ../LaundryFrontEndForBranch
 npm i
 
-cd..\LaundryFrontEndForFactory
+cd../LaundryFrontEndForFactory
 npm i
 
-cd ..\FrontEndForUsers
+cd ../FrontEndForUsers
 npm i
 
-cd ..\FrontEndMazerVite
+cd ../FrontEndMazerVite
 npm i
 
-cd ..\crudFrontEnd
+cd ../crudFrontEnd
 npm i
 
-cd ..\CrudGenV2
+cd ../CrudGenV2
+chmod +x ./BatchFiles/ForLaundry/LaundryFrontEndForAdmin.sh
+./BatchFiles/ForLaundry/LaundryFrontEndForAdmin.sh
