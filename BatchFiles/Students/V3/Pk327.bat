@@ -9,8 +9,8 @@ cd CrudGenV3
 call npm i
 echo PORT=7327> .env
 echo DataPk=327>> .env
-node KCode/ForBatV5/Backend.js
-node KCode/ForBatV5/Database.js
+node KCode/ForBatV7/Backend.js
+node KCode/ForBatV7/Database.js
 call npm run home
 
 cd ..\crudFrontEnd
