@@ -15,7 +15,7 @@ echo PORT=7318> .env
 echo DataPk=318>> .env
 node KCode/ForBatV7/Backend.js
 node KCode/ForBatV7/Database.js
-call npm run home
+call npm run Laundry
 
 cd ..\LaundryFrontEndForAdmin
 call npm i
