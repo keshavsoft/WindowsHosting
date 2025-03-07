@@ -1,6 +1,6 @@
 @echo off
 
-git clone https://github.com/keshavsoft/CrudGenV4
+git clone https://github.com/keshavsoft/LaundryBackEndV1
 git clone -c core.longpaths=true https://github.com/keshavsoft/LaundryFrontEndForAdmin
 git clone -c core.longpaths=true https://github.com/keshavsoft/LaundryFrontEndForBranch
 git clone -c core.longpaths=true https://github.com/keshavsoft/LaundryFrontEndForFactory
@@ -10,7 +10,7 @@ git clone -c core.longpaths=true https://github.com/keshavsoft/FrontEndMazerVite
 git clone -c core.longpaths=true https://github.com/keshavsoft/crudFrontEnd
 git clone -c core.longpaths=true https://github.com/keshavsoft/VoltUI
 
-cd CrudGenV4
+cd LaundryBackEndV1
 call npm i
 echo PORT=7318> .env
 echo DataPk=318>> .env
@@ -39,7 +39,7 @@ call npm i
 cd ..\VoltUI
 call npm i
 
-cd ..\CrudGenV4
+cd ..\LaundryBackEndV1
 call .\BatchFiles\ForLaundry\crudFrontEnd.bat
 call .\BatchFiles\ForLaundry\FrontEndForUsers.bat
 call .\BatchFiles\ForLaundry\FrontEndMazerVite.bat
