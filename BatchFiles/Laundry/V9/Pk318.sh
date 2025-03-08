@@ -15,7 +15,7 @@ echo DataPk=318>> .env
 node KCode/ForBatV7/Backend.js
 node KCode/ForBatV7/Database.js
 npm run Laundry
-mkdir Public/Laundry
+mkdir public/Laundry
 
 cd ../LaundryFrontEndForAdmin
 npm i
