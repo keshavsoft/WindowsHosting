@@ -10,6 +10,8 @@ git clone -c core.longpaths=true https://github.com/keshavsoft/FrontEndMazerVite
 git clone -c core.longpaths=true https://github.com/keshavsoft/crudFrontEnd
 git clone -c core.longpaths=true https://github.com/keshavsoft/VoltUI
 
+git clone -c core.longpaths=true https://github.com/keshavsoft/LaundryUI
+
 cd LaundryBackEndV1
 call npm i
 echo PORT=7318> .env
@@ -39,6 +41,9 @@ call npm i
 cd ..\VoltUI
 call npm i
 
+cd LaundryUI
+call npm i
+
 cd ..\LaundryBackEndV1
 call .\BatchFiles\ForLaundry\crudFrontEnd.bat
 call .\BatchFiles\ForLaundry\FrontEndForUsers.bat
@@ -49,3 +54,4 @@ call .\BatchFiles\ForLaundry\LaundryFrontEndForBranch.bat
 call .\BatchFiles\ForLaundry\LaundryFrontEndForFactory.bat
 
 call .\BatchFiles\ForLaundry\forVoltUi.bat
+call .\BatchFiles\ForLaundry\LaundryUI.bat
