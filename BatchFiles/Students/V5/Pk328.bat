@@ -24,3 +24,4 @@ call .\BatchFiles\Students328\V1\ForUI.bat
 
 
 npm run home
+npm run start
