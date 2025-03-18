@@ -23,4 +23,4 @@ cd ..\CrudBackEndWithMail
 call .\BatchFiles\Students328\V1\ForUI.bat
 
 
-npm run Students
+npm run home
