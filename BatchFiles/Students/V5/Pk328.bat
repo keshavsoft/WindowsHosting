@@ -1,11 +1,11 @@
 
 @echo off
 
-git clone https://github.com/keshavsoft/CrudGenV5
-git clone -c core.longpaths=true https://github.com/keshavsoft/crudFrontEnd
+git clone https://github.com/keshavsoft/CrudBackEndWithMail
 git clone -c core.longpaths=true https://github.com/keshavsoft/FrontEndForClients
+git clone -c core.longpaths=true https://github.com/keshavsoft/CrudFrontEndGulp
 
-cd CrudGenV5
+cd CrudBackEndWithMail
 call npm i
 echo PORT=7328> .env
 echo DataPk=328>> .env
@@ -13,14 +13,14 @@ node KCode/ForBatV8/Backend.js
 node KCode/ForBatV8/Database.js
 call npm run home
 
-cd ..\crudFrontEnd
+cd ..\CrudFrontEndGulp
 call npm i
 
 cd ..\FrontEndForClients
 call npm i
 
-cd ..\CrudGenV5
-call .\BatchFiles\ForStudents\ForUI.bat
+cd ..\CrudBackEndWithMail
+call .\BatchFiles\Students328\V1\ForUI.bat
 
 
 npm run Students
