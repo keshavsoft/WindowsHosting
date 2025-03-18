@@ -20,8 +20,7 @@ cd ..\FrontEndForClients
 call npm i
 
 cd ..\CrudBackEndWithMail
+call npm run home
 call .\BatchFiles\Students328\V1\ForUI.bat
 
-
-npm run home
-npm run start
+call npm run start
