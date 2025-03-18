@@ -9,8 +9,8 @@ cd CrudBackEndWithMail
 call npm i
 echo PORT=7328> .env
 echo DataPk=328>> .env
-node KCode/ForBatV8/Backend.js
-node KCode/ForBatV8/Database.js
+node KCode/ForBatV9/Backend.js
+node KCode/ForBatV9/Database.js
 call npm run home
 
 cd ..\CrudFrontEndGulp
