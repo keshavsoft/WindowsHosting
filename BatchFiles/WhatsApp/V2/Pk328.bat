@@ -11,7 +11,7 @@ echo PORT=7328> .env
 echo DataPk=328>> .env
 
 mkdir Data
-echo '{"posts":[]}'> Data/inwards.json
+echo {"posts":[]}> Data/inwards.json
 
 node KCode/ForBatV10/Backend.js
 node KCode/ForBatV10/Database.js
