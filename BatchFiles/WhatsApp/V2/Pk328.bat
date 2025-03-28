@@ -22,3 +22,4 @@ call .\BatchFiles\Students328\V1\ForUI.bat
 
 call npm run start
 call .\BatchFiles\Students328\V1\WAUi.bat
+call .\BatchFiles\Students328\V1\WithChat.bat
