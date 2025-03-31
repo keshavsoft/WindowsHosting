@@ -1,2 +1,27 @@
-node KCode/ForBatV7/Backend.js
-node KCode/ForBatV7/Database.js
+
+@echo off
+
+git clone https://github.com/keshavsoft/CrudBackEndWithMailAndWA
+git clone -c core.longpaths=true https://github.com/keshavsoft/FrontEndForClients
+git clone -c core.longpaths=true https://github.com/keshavsoft/CrudFrontEndGulp
+
+cd CrudBackEndWithMailAndWA
+call npm i
+echo PORT=7328> .env
+echo DataPk=328>> .env
+node KCode/ForBatV10/Backend.js
+node KCode/ForBatV10/Database.js
+
+cd ..\CrudFrontEndGulp
+call npm i
+
+cd ..\FrontEndForClients
+call npm i
+
+cd ..\CrudBackEndWithMailAndWA
+call npm run home
+call .\BatchFiles\Students328\V1\ForUI.bat
+
+call npm run start
+call .\BatchFiles\Students328\V1\WAUi.bat
+call .\BatchFiles\Students328\V1\WithChat.bat
