@@ -18,8 +18,10 @@ cd ..\FrontEndForClients
 call npm i
 
 cd ..\CrudBackEndWithMailAndWA
-call npm run home
 call .\BatchFiles\Students328\V1\forBackEndAndData.bat
+
+call npm run home
+
 call .\BatchFiles\Students328\V1\ForUI.bat
 
 call .\BatchFiles\Students328\V1\WAUi.bat
