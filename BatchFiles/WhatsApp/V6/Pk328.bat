@@ -20,7 +20,7 @@ call npm i
 cd ..\CrudBackEndWithMailAndWA
 call .\BatchFiles\Students328\V1\forBackEndAndData.bat
 
-call npm run home
+call .\BatchFiles\Students328\V1\forWebsite.bat
 
 call .\BatchFiles\Students328\V1\ForUI.bat
 
