@@ -46,10 +46,10 @@ call npm i
 cd ..\FrontEndCustomers
 call npm i
 
-cd LaundryUI
+cd ..\LaundryUI
 call npm i
 
-cd LaundryUIAdminMasters
+cd ..\LaundryUIAdminMasters
 call npm i
 
 cd ..\LaundryBackEndV1
