@@ -62,8 +62,8 @@ call .\BatchFiles\ForLaundry\LaundryFrontEndForFactory.bat
 
 call .\BatchFiles\ForLaundry\forVoltUi.bat
 
-call .\BatchFiles\ForLaundry\V1\Masters.bat
-call .\BatchFiles\ForLaundry\V1\AdminMasters.bat
 call .\BatchFiles\ForLaundry\V1\ForAdmin.bat
+call .\BatchFiles\ForLaundry\V1\AdminMasters.bat
+call .\BatchFiles\ForLaundry\V1\FrontEndCustomers.bat
 
 call .\BatchFiles\ForLaundry\LaundryUI.bat
