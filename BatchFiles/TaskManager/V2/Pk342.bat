@@ -10,5 +10,6 @@ cd ..\CrudFrontEndInGulp
 call npm i
 
 cd ..\FileCrud
+call .\BatchFiles\V1\ForUI.bat
 
 call npm run start
